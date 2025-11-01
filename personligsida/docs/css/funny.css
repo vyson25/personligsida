@@ -1,0 +1,48 @@
+body, html {padding: 0px;
+margin: 0px;}
+
+body {background-color: white;}
+
+.sixseven {font-size: 100px;
+text-align: center;
+width: 90%;
+margin: auto;}
+
+p, h1, h2, h3 {color: black;
+font-family: Arial, Helvetica, sans-serif;
+width: 80%;
+margin: auto;
+margin-top: 1%;}
+
+a {font-family: Arial, Helvetica, sans-serif;
+width: 80%;
+display: block;
+margin: auto;
+margin-top: 2%;
+margin-bottom: 2%;
+font-size: 18px;}
+
+.fler {font-size: 18px;
+margin-top: 2%;
+margin-bottom: 2%;}
+
+.lank {width: 20%;
+border: 2px, solid, blue;
+border-radius: 20px;
+text-align: center;
+margin-left: 0%;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 24px;}
+
+@media only screen and (max-width: 600px) {
+  .lank {width: 45%;}
+}
+
+footer {background-color: lightslategray;}
+
+footer>h2 {padding-top: 20px;
+padding-bottom: 20px;}
+
+footer>p {padding-bottom: 20px;
+font-size: larger;}
