@@ -7,7 +7,7 @@ p, h1, h2, h3 {color: black;
 font-family: Arial, Helvetica, sans-serif;
 width: 80%;
 margin: auto;
-margin-top: 1%;}
+margin-top: 3%;}
 
 .lank {width: 20%;
 border: 2px, solid, blue;
@@ -24,6 +24,10 @@ padding-right: 20px;
 display: block;}
 
 a {width: 20%;}
+
+@media only screen and (max-width: 600px) {
+  .lank {width: 45%;}
+}
 
 footer {background-color: lightslategray;}
 
