@@ -14,20 +14,6 @@ margin: auto;
 font-size: larger;
 margin-top: 5%;}
 
-.lank {width: 20%;
-border: 2px, solid, blue;
-border-radius: 20px;
-margin-left: 10%;
-text-align: center;
-margin-top: 2%;
-padding-top:10px;
-padding-bottom: 10px;
-font-size: 24px;
-font-family: Arial, Helvetica, sans-serif;
-padding-left: 20px;
-padding-right: 20px;
-display: block;}
-
 #secret {display: none;}
 
 a {margin: auto;
@@ -53,19 +39,38 @@ padding-right: 2px;}
 .input {width: 50%;
 margin-left: 20%;}
 
+.lank {width: 20%;
+border: 2px, solid, blue;
+border-radius: 20px;
+margin-left: 10%;
+text-align: center;
+margin-top: 2%;
+padding-top:10px;
+padding-bottom: 10px;
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 20px;
+padding-right: 20px;
+display: block;}
+
 @media only screen and (max-width: 600px) {
   #pass {width: 90%;}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   p {font-size: larger;}
   h1, h2, h3, h4 {margin-top: 4%;
 margin-bottom: 4%;}
+.lank {width: 45%;}
 }
 
 @media only screen and (min-width: 1000px) {
   p, h1, h2, h3, h4, a {width: 60%;}
+  .lank {margin-left: 20%;}
 }
+
+.disclaimer {margin-top: 2%;
+margin-bottom: 2%;}
 
 footer>p {padding-top: 2%;}
 footer>a {padding-top: 1%;
