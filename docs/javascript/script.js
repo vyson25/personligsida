@@ -8,7 +8,7 @@ document.getElementById('pass').style.display="none";
 }
 else
 {
-document.getElementById('err').innerHTML= 'wrong';
+document.getElementById('err').innerHTML= 'fel';
 
 }
 

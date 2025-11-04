@@ -1,0 +1,68 @@
+body, html {padding: 0px;
+margin: 0px;}
+
+body {background-color: white;}
+
+p, h1, h2, h3 {color: black;
+font-family: Arial, Helvetica, sans-serif;
+width: 80%;
+margin: auto;
+margin-top: 1%;}
+
+#pass {width: 60%;
+margin: auto;
+font-size: larger;
+margin-top: 5%;
+margin-bottom: 50%;}
+
+#secret {display: none;}
+
+#secret>p {margin-top: 12px;
+margin-bottom: 12px;}
+
+input {display: block;
+margin: auto;
+width: 60%;
+margin-top: 1%;}
+
+.button {margin: auto;
+margin-top: 1%;
+width: 50%;}
+
+label {width: fit-content;
+margin: auto;
+display: block;
+font-family: Arial, Helvetica, sans-serif;}
+
+#pass>p {margin: auto;
+width: fit-content;
+margin-bottom: 12px;
+font-size: larger;}
+
+.lank {width: 20%;
+border: 2px, solid, blue;
+border-radius: 20px;
+margin-left: 10%;
+text-align: center;
+margin-top: 2%;
+padding-top:10px;
+padding-bottom: 10px;
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 20px;
+padding-right: 20px;
+display: block;}
+
+@media only screen and (max-width: 600px) {
+  input {width: 100%;}
+  #pass>p {width: 100%}
+  .lank {width: 45%;}
+}
+
+footer {background-color: lightslategray;}
+
+footer>h2 {padding-top: 20px;
+padding-bottom: 20px;}
+
+footer>p {padding-bottom: 20px;
+font-size: larger;}
